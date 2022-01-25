@@ -1,7 +1,9 @@
 package guru.springframework.domain;
 
 import org.junit.Before;
-import org.junit.Test;
+// import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +11,8 @@ public class CategoryTest {
 
     Category category;
 
-    @Before
+    // @Before
+    @BeforeEach
     public void setUp(){
         category = new Category();
     }
