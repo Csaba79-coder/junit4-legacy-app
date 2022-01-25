@@ -13,6 +13,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class Spring5RecipeAppApplicationTests {
 
+	// if right click on folder --> optimize import (it is a good tool)
+	// changed all annotation for converting the test ... watch out the imports in case of @Test annotation
+	// instead of it: import org.junit.Test; --> we need the jupiter api! --> import org.junit.jupiter.api.Test;,
+
 	@Test
 	public void contextLoads() {
 	}
